@@ -1,4 +1,4 @@
-"""1. Pregunta a una persona su edad y utiliza una declaración if para determinar si es mayor de 18 años y puede votar.
+#1. Pregunta a una persona su edad y utiliza una declaración if para determinar si es mayor de 18 años y puede votar.
 
 print ("*******Bienvenido*******")
 
@@ -7,10 +7,10 @@ edad = int(input("Querido usuario, ingrese su edad"))
 if edad > 18 :
     print ("Usted es mayor de 18 años y puede votar")
 else : 
-    print("Usted es menor de 18 años y no puede votar")"""
+    print("Usted es menor de 18 años y no puede votar")
 
 
-"""2. Pide una calificación numérica y utiliza condicionales elif para asignar una calificación en letras, como A, B, C o D.
+#2. Pide una calificación numérica y utiliza condicionales elif para asignar una calificación en letras, como A, B, C o D.
 
 print ("*******Bienvenido*******")
 
@@ -25,9 +25,9 @@ elif calificacion > 60 and calificacion <= 80 :
 elif calificacion > 80 and calificacion <= 100 :
     print ("Su calificacion en el trabajo es:","A")
 else :
-    print ("No ha ingresado un numero de calificacion permitido")"""
+    print ("No ha ingresado un numero de calificacion permitido")
 
-"""#3. Permítele a alguien elegir un tipo de comida y utiliza condicionales if para recomendar un restaurante según la elección (por ejemplo, comida italiana, mexicana o china).
+#3. Permítele a alguien elegir un tipo de comida y utiliza condicionales if para recomendar un restaurante según la elección (por ejemplo, comida italiana, mexicana o china).
 
 tipoComida = str(input("Bienvenido estimado cliente, puedo saber que tipo de comida desea? (Italiana - Japonesa - China - Mexicana - Colombiana):"))
 
@@ -43,7 +43,7 @@ elif tipoComida == "Mexicana" :
 elif tipoComida == "Colombiana" :
     print ("Ya veo, en este caso le recomiendo ir al restuaurante colombiano. Hacen una comida de tu gusto.")
 else :
-    print ("Uy... Disculpame, no se que restaurante recomendarte para ese tipo de comida (no es uno de los que se puso entre parentesis)")"""
+    print ("Uy... Disculpame, no se que restaurante recomendarte para ese tipo de comida (no es uno de los que se puso entre parentesis)")
 
 #4. Solicita una contraseña y utiliza una declaración if para verificar si coincide con una contraseña predefinida antes de permitir el acceso.
 
@@ -60,27 +60,16 @@ while contraseña != Contraseña :
         print ("No has ingresado la contraseña correcta.")
 
 
+#5. Pide a alguien que ingrese una palabra y utiliza condicionales para determinar si es un palíndromo, es decir, si se lee igual de izquierda a derecha y de derecha a izquierda.
 
+print ("**Bienvenido Usuario**")
 
+palabra = input("Ingresa una palabra:")
 
+# Convertir la palabra a minúsculas para hacer la comparación sin importar mayúsculas o minúsculas
+palabra = palabra.lower()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if palabra == palabra[::-1]:
+    print(f"{palabra} es un palíndromo.")
+else:
+    print(f"{palabra} no es un palíndromo.")
