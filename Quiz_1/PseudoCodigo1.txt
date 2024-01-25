@@ -60,7 +60,7 @@ a. Todos los números del 1 al 12.
 b. Los números pares del 1 al 12.
 c. Los divisores de 6.
 d. Los múltiplos de 6 hasta 12.
-Respuesta - 4: (d)
+Respuesta - 4: (c)
 
 
 Pregunta 5: 
@@ -79,4 +79,4 @@ a. 54321
 b. 12345
 c. 543210
 d. 123450
-Respuesta - 5: (d)
+Respuesta - 5: (a)
