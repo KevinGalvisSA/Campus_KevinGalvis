@@ -1,3 +1,5 @@
+#Verificar si una palabra es un palíndromo (se lee igual al reves)
+
 print ("**Bienvenido Usuario**")
 
 palabra = input("Ingresa una palabra:")

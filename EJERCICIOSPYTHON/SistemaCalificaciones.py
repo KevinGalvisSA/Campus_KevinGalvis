@@ -1,3 +1,5 @@
+#Sistema de Calificaciones
+
 print ("*******Bienvenido*******")
 
 calificacion = int(input("Hola usuario, ingrese una calificación (1 a 100):"))
