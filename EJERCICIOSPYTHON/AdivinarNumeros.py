@@ -1,7 +1,7 @@
 
 import random
 
-numeroSecreto = random.radiant(1, 100)
+numeroSecreto = random.randint(1, 100)
 numeroUsuario = 0
 
 while numeroUsuario != numeroSecreto :
