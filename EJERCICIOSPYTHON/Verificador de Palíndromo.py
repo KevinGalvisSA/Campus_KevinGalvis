@@ -1,5 +1,3 @@
-#Palabras Palíndromas
-
 print ("**Bienvenido Usuario**")
 
 palabra = input("Ingresa una palabra:")

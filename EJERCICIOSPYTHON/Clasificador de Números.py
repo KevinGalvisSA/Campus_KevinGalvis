@@ -1,7 +1,7 @@
 print ("----Bienvenido Usuario----")
 
 
-numero = int(input("Ingrese un numero:"))
+numero = int(input("Ingrese un numero"))
 
 if numero == 0: 
     print ("El numero ingresado es 0")
