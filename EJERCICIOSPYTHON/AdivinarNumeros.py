@@ -23,6 +23,3 @@ print ("El numero secreto era: ",numeroSecreto)
 
 
 
-
-
-
